@@ -1,0 +1,28 @@
+# ========================================================
+# Git Ignore - Made by Yuvi
+# ========================================================
+
+# Sensitive Credentials & Cookies
+.env
+cookies.txt
+
+# Temporary and Cache Directories
+tmp/
+download/
+cache/
+cache_video/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Archives & OS files
+zipFile.zip
+.DS_Store
+Thumbs.db
